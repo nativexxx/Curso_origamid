@@ -1,0 +1,42 @@
+body {
+  background-color: dimgray;
+  margin: 0;
+}
+#cidade_RJ {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.centralizar-rj {
+  text-align: center;
+}
+.ancora {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 20px 20px;
+  background-color: darkgreen;
+  margin: 0;
+}
+.filmes_em_cartas {
+  margin: 20px;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: black;
+}
+.filmes {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 64px;
+}
+.filmes_ {
+  display: inline-block;
+  margin-left: 60px;
+  width: 50%;
+}
+.dia_dos_filmes {
+  font-size: 30px;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+}

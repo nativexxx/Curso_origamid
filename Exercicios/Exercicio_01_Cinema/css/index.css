@@ -1,0 +1,44 @@
+html,
+body,
+a {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(54, 54, 54);
+  text-decoration: none;
+}
+main {
+  margin: 20px;
+}
+.Cidades {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin: 10px;
+}
+.Estreias {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #040f01;
+  padding: 20px;
+  display: block;
+}
+.rj,
+.sp {
+  font-size: 30px;
+  color: #33ff00;
+  margin-top: 29px;
+  display: flex;
+  background-color: rgb(18 27 133 / 66%);
+  width: 8em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.dia_dos_filmes {
+  font-size: 30px;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+}
