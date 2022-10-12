@@ -1,0 +1,160 @@
+body {
+  background-color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+/* ======================
+||     Elementos nav    ||
+======================= */
+header h1 {
+  color: #fff;
+  font-family: "Monoton", cursive;
+  font-family: "Piedra", cursive;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 1.3rem;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  padding: 0.9rem 2rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  margin-left:0.9rem;
+  transition: all 0.5s, border-radius 2s 4s;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+header nav a:hover {
+  background-color: #e21;
+  transform: translateX(1);
+  transform: translate(0rem, -0.3rem);
+  transition: all 0.5s, border-radius 2s 4s;
+  color: #fff;
+}
+/* ======================
+||   Galeria de fotos ||
+======================= */
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 0.19rem;
+  background: rgb(247, 247, 247);
+  max-width: 62.5rem;
+  position: relative;
+}
+.galeria h1{
+  font-size: 2rem;
+}
+.mensagens h2{  background-image: url(../img/onda.svg);}
+.bicicleta  {
+  max-width: 100%;
+  display: block;
+  height: 101%;
+}
+.discricao {
+  text-align: end;
+  align-items: center;
+  display: grid;
+  align-content: center;
+  padding: 1.3rem;
+  justify-items: end;
+}
+.discricao::after{
+  content: "";
+    width: 3rem;
+    height: 0.15rem;
+    background-color: #e21;
+    position: absolute;
+    top: 2rem;
+    right: 29.5rem;
+}
+.discricao p {
+  font-size: 1.3rem;
+  font-weight: Arial;
+}
+.galeriaCor {
+  background: #fff;
+}
+.botao {
+  background: #e21;
+  padding: 1.3rem;
+  border-radius: 0.19rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.5s, border-radius 2s 4s;
+}
+.botao:hover{
+  background-color: darkorange;
+  transform: translate(0rem, 0.3rem);
+  transition: all 0.5s, border-radius 2s 4s;
+}
+.mensagens {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.mensagens h2 {
+  font-size: 4rem;
+  display: grid;
+  align-content: space-evenly;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.2);
+}
+.descricao {
+      padding: 0px 4rem 0px 0px;
+}
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.6rem 1.3rem;
+  align-items: center;
+ transition: all 0.5s, border-radius 2s 4s;
+  
+}
+.item p {
+  grid-column: 2;
+  font-size: 1.3rem;
+  margin: 0 0 1.3rem 0;
+}
+.item:hover::before{
+  content: "";
+  width: 6px;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  margin: 0px -19px;
+  transform: translate(1rem, 0rem);
+  transition: all 0.5s, border-radius 2s 4s;
+}
+.item:hover{
+  background-color: #2b2b2b;
+  transform: translate(1rem, 0rem);
+  transition: all 0.5s, border-radius 2s 4s;
+  color: #fff;
+  top: -5px;
+}
+
+.icone{
+  margin-left: 0.8rem;
+}
+
+footer p {
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem;
+  margin: 0rem ;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
