@@ -3,15 +3,16 @@ Curso da origamid de Front End
 
 Open Settings
 {
-  "workbench.colorTheme": "Origamid Next",
-  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.iconTheme": "icons",
   "editor.fontSize": 16,
-  "editor.lineHeight": 1.75,
+  "editor.lineHeight": 1.5,
   "editor.tabSize": 2,
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
   "editor.minimap.renderCharacters": false,
   "telemetry.telemetryLevel": "off",
+  "telemetry.anableCrashReporter": "false",
+  "telemetry.amabçeTeçe,etry": "false",
   "security.workspace.trust.untrustedFiles": "open",
   "breadcrumbs.filePath": "off",
   "outline.icons": false,
@@ -25,5 +26,7 @@ Open Settings
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "editor.bracketPairColorization.enabled": false
+  "editor.bracketPairColorization.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 250
 }
